@@ -22,7 +22,8 @@ p,li {
 }
 span {
     color: rgb(200, 20, 20) !important;
-    margin-right: 4px;
+    margin-right: 3px;
+    font-size: 0.8rem;
 }
 header {
     background: rgb(200, 20, 20);
@@ -57,6 +58,10 @@ main {
 .left_block {
     margin-bottom: 2.2rem;
 }
+.left_block p {
+    display: flex;
+    align-items: flex-start;
+}
 .left_block h3{
     margin-bottom: 1.5rem;
 }
@@ -67,7 +72,6 @@ main {
 .side_left {
     width: 32%;
     border-right: 1px solid rgb(20, 20, 20,0.1);
-    height: 77vh;
     padding-right: 3px;
 }
 
@@ -78,15 +82,13 @@ main {
 .right_side .work {
     margin-bottom: 1rem;
 }
-.right_side .work span {
-    font-size: 0.82rem;
-}
+
 .right_side .work h4 {
     /* margin: 0.2rem 0; */
     color: rgb(200, 20, 20);
 }
 .right_side  h3 {
-    margin-bottom: 1.9rem;
+    margin-bottom: 1.3rem;
     border-bottom: 2px solid rgb(200, 20, 20) !important;
     display: block;
     padding-bottom: 2px;
