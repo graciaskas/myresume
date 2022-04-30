@@ -23,7 +23,7 @@ p,li {
 span {
     color: rgb(200, 20, 20) !important;
     margin-right: 3px;
-    font-size: 0.8rem;
+    font-size: 0.7rem;
 }
 header {
     background: rgb(200, 20, 20);
@@ -58,9 +58,10 @@ main {
 .left_block {
     margin-bottom: 2.2rem;
 }
-.left_block p {
+.left_block div {
     display: flex;
     align-items: flex-start;
+    justify-content: flex-start;
 }
 .left_block h3{
     margin-bottom: 1.5rem;
