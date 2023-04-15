@@ -3,28 +3,23 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="./public/css/main.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>Gracias Kasongo</title>
 </head>
 <body>
-    <header>
+    <header class="section__header bg-primary">
         <div class="container">
             <div class="row">
-                <!-- left side -->
-                <div class="left_side">
-                    <div class="row">
-                        <div class="h_image">
-                            <img src="./src/i.png" alt="" width="80">
-                        </div>
-                        <div class="h_objectif">
-                            <h1 class="t-white">Gracias Kasongo</h1>
-                            <h3 class="t-white">Full Stack Web Developer.</h3>
-                            <p class="t-white">Ability to develop and design software under tight deadlines. Experienced in software development, customer needs analysis and program debugging. Great intellectual curiosity and ability to adapt to new IT developments.</p>
-                        </div>
-                    </div>
+             
+                <div class="header__image">
+                    <img src="./public/src/i.JPG" alt="profile" >
                 </div>
-
+                <div class="header__objectif">
+                    <h1 class="text-white">Gracias Kasongo</h1>
+                    <h3 class="text-white">Web Developer.</h3>
+                    <p class="text-white">Ability to develop and design software under tight deadlines. Experienced in software development, customer needs analysis and program debugging. Great intellectual curiosity and ability to adapt to new IT developments.</p>
+                </div>
             </div>
         </div>
     </header>
@@ -35,37 +30,46 @@
                 <!-- left side -->
                 <div class="side_left">
                     <div class="left_block">
-                        <h3 class="t-danger">CONTACT</h3>
+                        <h3 class="text-primary">CONTACT</h3>
                         <p><span class="fa fa-envelope"></span> graciaskas96@gmail.com </p>
-                        <p><span class="fa fa-phone"></span> (243) 978 092 058 </p>
-                        <p><span class="fa fa-map-marker"></span>Goma - DR Congo</p>
+                        <p><span class="fa fa-phone"></span> (243) 998 872 308 </p>
+                        <!-- <p><span class="fa fa-map-marker"></span>Goma - DR Congo</p> -->
                         <p><span class="fa fa-github"></span>Github.com/graciaskas</p>
                         <p><span class="fa fa-codepen"></span>codepen.com/graciaskasongo</p>
-                        <p><span class="fa fa-linkedin"></span>linkedin.com/graciaskas</p>
+                        <p><span class="fa fa-linkedin"></span>linkedin.com/in/graciaskas</p>
                         <p><span class="fa fa-chrome"></span>https://gracias.zeslap.com</p>
                     </div>
-                    <div class="left_block">
-                        <h3 class="t-danger upper">Skills</h3>
-                        <p>HTML-XML</p>
-                        <p>CSS(SASS,LESS)</p>
-                        <p>Javascript(Node, React, Next)</p>
-                        <p>Python(Django)</p>
-                        <p>PHP(Laravel)</p>
-                        <p>Git</p>
-                        <p>SQL</p>
-                        <p>MongoDB</p>
-                        <p>MySQL, PhpMyAdmin</p>
-                        <p>Odoo</p>
-                        <p>System Administration</p>
-                        <p>IT Services</p>
-                        <p>REST APIs</p>
-                        <p>Linux</p>
-                        <p>Data analysis</p>
-                        <p>Responsive web design</p>
-                        <p>Communication</p>
+                    <div class="left_block section__skills">
+                        <h3 class="text-primary text-upper">Skills</h3>
+                        <div class="skills">
+                            <p class="skill">Javascript</p>
+                            <p class="skill">Node.js</p>
+                            <p class="skill">React.js</p>
+                            <p class="skill">Git</p>
+                            <p class="skill">SQL</p>
+                            <p class="skill">Adobe Photoshop</p>
+                            <p class="skill">ERP(s)</p>
+                            <p class="skill">HTML & CSS(Sass)</p>
+                            <p class="skill">MySQL</p>
+                            <p class="skill">Python(Django)</p>
+                            <p class="skill">Next.js</p>
+                            <p class="skill">PHP(Laravel)</p>
+                           
+                            <p class="skill">MongoDB</p>
+                            
+                            
+                            <p class="skill">System Administration(Linux)</p>
+                           
+                            <p class="skill">REST APIs</p>
+                            <p class="skill">TailwindCSS</p>
+                            <p class="skill">Data analysis</p>
+                            <p class="skill">Express.js</p>
+                            <p class="skill">Responsive web design</p>
+                            <p class="skill">Communication</p>
+                        </div>
                     </div>
                     <div class="left_block">
-                        <h3 class="t-danger upper">LANGUAGES</h3>
+                        <h3 class="text-primary text-upper">LANGUAGES</h3>
                         <p>English:  (B2)</p>
                         <p>French: (B2)</p>
                         <p>Swahili:  (B2)</p>
@@ -76,20 +80,35 @@
                 <div class="right_side">
                     <!-- works -->
                     <div class="works">
-                        <h3 class="upper t-danger">BACKGROUND</h3>
+                        <h3 class="text-upper text-primary">BACKGROUND</h3>
                         <div class="work">
-                            <h5 class="upper">Linda Hotel, Goma - DR Congo.</h5>
-                            <h4>Freelance Odoo ERP developer</h4>
-                            <p>Jan 2022 - Apr 2022 </p>
+                            <h4>Freelance Odoo ERP developer & consultant integrator</h4>
+                            <div style="display:flex; align-items: center;">
+                                <p>Jul 2022 - now </p>
+                                <h5 class="text-upper" style="margin-left: 15px;">📍 Ihusi Hotel, Goma - DR Congo.</h5>
+                            </div>
+                            <ul>
+                                <li>Development and customization of third-party odoo modules for hotel;</li>
+                                <li>New System integration & user assistance.</li>
+                            </ul>
+                        </div>
+                        <div class="work">
+                            <h4>Consultant System Integrator</h4>
+                            <div style="display:flex; align-items: center;">
+                                <p>Jan 2022 - Apr 2022 </p>
+                                <h5 class="text-upper" style="margin-left: 15px;">📍 Linda Hotel, Goma - DR Congo.</h5>
+                            </div>
                             <ul>
                                 <li>Development and customization of third-party odoo modules for hotel;</li>
                                 <li>Configuring the VPS server and deploying the system online.</li>
                             </ul>
                         </div>
                         <div class="work">
-                            <h5 class="upper">Planet Hotel, Goma - DR Congo.</h5>
-                            <h4>Freelance full stack web developer</h4>
-                            <p>Sept 2021 - Dec 2021</p>
+                            <h4>Freelance web developer</h4>
+                            <div style="display:flex; align-items: center;">
+                                <p>Sept 2021 - Dec 2021</p>
+                                <h5 class="text-upper" class="text-upper" style="margin-left: 15px;">📍 Planet Hotel, Goma - DR Congo.</h5>
+                            </div>
                             <ul>
                                 <li>Design and hosting of the website <strong>(planethotelgoma.net)</strong></li> 
                                 <li>Configuration of professional email addresses</li>
@@ -98,9 +117,9 @@
                     </div>
                     <!-- works -->
                     <div class="works">
-                        <h3 class="upper t-danger">education</h3>
+                        <h3 class="text-upper text-primary">education</h3>
                         <div class="work">
-                            <h5 class="upper">U.L.K | Gisenyi, Rwanda.</h5>
+                            <h5 class="text-upper">U.L.K | Gisenyi, Rwanda.</h5>
                             <h4> BS: Computer Science</h4>
                             <p> 2017 - 2021 </p>
                             <ul>
@@ -108,24 +127,24 @@
                             </ul>
                         </div>
                         <div class="work">
-                            <h5 class="upper">Institut Maendeleo | Goma, RD Congo.</h5>
+                            <h5 class="text-upper">Institut Maendeleo | Goma, RD Congo.</h5>
                             <h4>State diploma: Latin et philosophie</h4>
                             <p>2010 - 2017 </p>
                         </div>
                     </div>
                     <div class="works">
-                        <h3 class="upper t-danger">CERTIFICATIONS</h3>
+                        <h3 class="text-upper text-primary">CERTIFICATIONS</h3>
                         <div class="work">
-                            <h4 class="t-dark">Responsive Web Design.</h4>
+                            <h5 class="t-dark">Responsive Web Design.</h5>
                             <p> Avril 2022 - FreeCodeCamp.org</p>
                         </div>
                         <div class="work">
-                            <h4 class="t-dark">Devenir développeur / développeuse web full-stack</h4>
+                            <h5 class="t-dark">Devenir développeur / développeuse web full-stack</h5>
                             <p> Oct 2021 - LinkedIn Learning, <strong>ID: AfZYfMKyO6tlWz-PunBe7ajA2u_u</strong></p>
                             
                         </div>
                         <div class="work">
-                            <h4 class="t-dark">Devenir développeur / développeuse React</h4>
+                            <h5 class="t-dark">Devenir développeur / développeuse React</h5>
                             <p> Oct 2021 - LinkedIn Learning, <strong>ID: AXBkV2swGFgjH1-tl68-gyYyHAwm</strong></p>
                         </div>
                     </div>
